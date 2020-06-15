@@ -37,7 +37,7 @@ test("form shows success message on submit with form details", () => {
     target: { name: "address", value: "6 Tagore Drive" },
   });
   fireEvent.change(cityInput, {
-    target: { name: "city", value: "Chicago" },
+    target: { name: "city", value: "Singapore" },
   });
   fireEvent.change(stateInput, {
     target: { name: "state", value: "Singapore" },
